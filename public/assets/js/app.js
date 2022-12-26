@@ -50,4 +50,6 @@ function searchProjects() {
     });
 }
 
-searchProjects()
+searchProjects();
+
+document.querySelector('.user__infos_img img').src = 'https://github.com/' + _BOHR_REPO_OWNER + '.png';
